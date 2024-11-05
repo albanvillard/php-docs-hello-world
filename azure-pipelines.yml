@@ -8,7 +8,7 @@ trigger:
 
 pool:
   vmImage: ubuntu-latest
-  pool:name: villard
+  name: villard
   demands:
   - Agent.Name -equals S124-15
 steps:
