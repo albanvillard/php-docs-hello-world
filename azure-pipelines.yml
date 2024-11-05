@@ -8,7 +8,9 @@ trigger:
 
 pool:
   vmImage: ubuntu-latest
-
+  pool:name: villard
+  demands:
+  - Agent.Name -equals S124-15
 steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
